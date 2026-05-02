@@ -10,11 +10,6 @@ A comprehensive student management application built with Spring Boot.
 - User authentication
 - RESTful API endpoints
 
-## Prerequisites
-
-- Java 11 or higher
-- Maven 3.6+
-- MySQL 5.7+
 
 ## Installation
 
@@ -66,14 +61,10 @@ src/
 
 - Spring Boot
 - Spring Data JPA
-- MySQL
+- H2 Database
 - Maven
-- Lombok
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests.
 
-## License
-
-This project is licensed under the MIT License.
