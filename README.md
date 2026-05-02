@@ -1,0 +1,79 @@
+# Spring Boot Student Management System
+
+A comprehensive student management application built with Spring Boot.
+
+## Features
+
+- Student registration and management
+- Course enrollment
+- Grade tracking
+- User authentication
+- RESTful API endpoints
+
+## Prerequisites
+
+- Java 11 or higher
+- Maven 3.6+
+- MySQL 5.7+
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Atharva-Surya/springboot-student-management.git
+cd springboot-student-management
+```
+
+2. Configure the database:
+   - Update `application.properties` with your MySQL credentials
+   - Create a new MySQL database for the application
+
+3. Build and run the application:
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+
+The application will be available at `http://localhost:8080`
+
+## API Endpoints
+
+### Students
+- `GET /api/students` - Get all students
+- `POST /api/students` - Create a new student
+- `GET /api/students/{id}` - Get student by ID
+- `PUT /api/students/{id}` - Update student
+- `DELETE /api/students/{id}` - Delete student
+
+## Project Structure
+
+```
+src/
+├── main/
+│   ├── java/
+│   │   └── com/studentmanagement/
+│   │       ├── controller/
+│   │       ├── service/
+│   │       ├── repository/
+│   │       ├── model/
+│   │       └── Application.java
+│   └── resources/
+│       └── application.properties
+└── test/
+```
+
+## Technologies Used
+
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Maven
+- Lombok
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
